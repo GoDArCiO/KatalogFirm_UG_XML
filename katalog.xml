@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE katalog_firm SYSTEM "katalog.dtd">
+<katalog_firm> 
+	<firmy> 
+	
+		<firma nip="x5270473604"> 
+			<nazwa>Matrix</nazwa> 
+			<iban>91124052088087905412115661</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Matrix@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>80110486714</pesel>
+				<dowod_osobisty>RUU049482</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+		
+		<firma nip="x9718496397"> 
+			<nazwa>Red</nazwa> 
+			<iban>91871710197117162554523002</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Red@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>51092365188</pesel>
+				<dowod_osobisty>XKL092911</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+
+		<firma nip="x6017363118"> 
+			<nazwa>Blue</nazwa> 
+			<iban>38124062502821087532877360</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Blue@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>03211986857</pesel>
+				<dowod_osobisty>NBM552497</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+
+		<firma nip="x3932963336"> 
+			<nazwa>Neo</nazwa> 
+			<iban>94124046054241658065822937</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Neo@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>28101669838</pesel>
+				<dowod_osobisty>WMK763390</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+
+		<firma nip="x1092757124"> 
+			<nazwa>Trinity</nazwa> 
+			<iban>23967400069824943124050172</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Trinity@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>80051864950</pesel>
+				<dowod_osobisty>LQE463330</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+
+		<firma nip="x7582272153"> 
+			<nazwa>Morpheus</nazwa> 
+			<iban>69834300087964181470301248</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Morpheus@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>18213017948</pesel>
+				<dowod_osobisty>HDI284752</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 	
+
+		<firma nip="x9483423905"> 
+			<nazwa>Cypher</nazwa> 
+			<iban>59109025616363370380182185</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Cypher@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>37100632347</pesel>
+				<dowod_osobisty>MEY876410</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+
+		<firma nip="x5348331034"> 
+			<nazwa>Smith</nazwa> 
+			<iban>62124016750345148548668541</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Smith@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>03010831886</pesel>
+				<dowod_osobisty>QGB316423</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 
+
+		<firma nip="x1199520531"> 
+			<nazwa>Oracle</nazwa> 
+			<iban>04879800026179874695559660</iban> 
+			<kontakt>
+				<telefon>333666999</telefon> 
+				<mail>Oracle@gmail.com</mail> 
+			</kontakt> 
+			<zglaszajacy>
+				<pesel>31070607468</pesel>
+				<dowod_osobisty>ITR825287</dowod_osobisty>
+			</zglaszajacy>
+		</firma> 		
+
+	</firmy> 
+	
+	<wyswietlenia> 
+	
+		<wyswietlenie nipFirmy="x5270473604"> 
+			<dataStart>2020-04-08</dataStart> 
+			<dataStop>2020-04-10</dataStop> 
+			<koszt>500</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x1092757124"> 
+			<dataStart>2020-04-08</dataStart> 
+			<dataStop>2020-04-18</dataStop> 
+			<koszt>100</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x5270473604"> 
+			<dataStart>2020-04-08</dataStart> 
+			<dataStop>2020-05-10</dataStop> 
+			<koszt>20</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x7582272153"> 
+			<dataStart>2020-04-08</dataStart> 
+			<dataStop>2020-06-10</dataStop> 
+			<koszt>50</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x1092757124"> 
+			<dataStart>2020-04-08</dataStart> 
+			<dataStop>2020-04-11</dataStop> 
+			<koszt>300</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x7582272153"> 
+			<dataStart>2020-03-08</dataStart> 
+			<dataStop>2020-04-10</dataStop> 
+			<koszt>250</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x1199520531"> 
+			<dataStart>2020-03-18</dataStart> 
+			<dataStop>2020-04-10</dataStop> 
+			<koszt>1500</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x1092757124"> 
+			<dataStart>2020-02-22</dataStart> 
+			<dataStop>2020-04-10</dataStop> 
+			<koszt>550</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x3932963336"> 
+			<dataStart>2020-01-18</dataStart> 
+			<dataStop>2020-04-10</dataStop> 
+			<koszt>100</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x5348331034"> 
+			<dataStart>2020-03-22</dataStart> 
+			<dataStop>2020-04-22</dataStop> 
+			<koszt>7500</koszt> 
+		</wyswietlenie> 
+		
+		<wyswietlenie nipFirmy="x5348331034"> 
+			<dataStart>2020-03-21</dataStart> 
+			<dataStop>2020-05-12</dataStop> 
+			<koszt>900</koszt> 
+		</wyswietlenie> 
+
+	</wyswietlenia> 
+</katalog_firm>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="katalog_firm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="firmy">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="firma" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nazwa"/>
+                    <xs:element type="xs:integer" name="iban"/>
+                    <xs:element name="kontakt">
+                      <xs:complexType>
+                        <xs:sequence>
+                           <xs:element name="telefon">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="[0-9]{9}"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+                          <xs:element name="mail">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="[^@]+@[^\.]+\..+"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="zglaszajacy">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:integer" name="pesel"/>
+                          <xs:element type="xs:string" name="dowod_osobisty"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="nip" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="wyswietlenia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="wyswietlenie" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:date" name="dataStart"/>
+                    <xs:element type="xs:date" name="dataStop"/>
+                    <xs:element name="koszt">
+						<xs:simpleType>
+							<xs:restriction base="xs:integer">
+								<xs:minInclusive value="0"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="nipFirmy" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
