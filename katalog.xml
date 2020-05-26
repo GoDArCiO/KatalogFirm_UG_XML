@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="katalog.css"?>
 <!DOCTYPE katalog_firm SYSTEM "katalog.dtd">
 <katalog_firm> 
 	<firmy> 
@@ -7,7 +8,7 @@
 			<nazwa>Matrix</nazwa> 
 			<iban>91124052088087905412115661</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>323666999</telefon> 
 				<mail>Matrix@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -20,7 +21,7 @@
 			<nazwa>Red</nazwa> 
 			<iban>91871710197117162554523002</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>233666999</telefon> 
 				<mail>Red@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -33,7 +34,7 @@
 			<nazwa>Blue</nazwa> 
 			<iban>38124062502821087532877360</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>332666999</telefon> 
 				<mail>Blue@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -46,7 +47,7 @@
 			<nazwa>Neo</nazwa> 
 			<iban>94124046054241658065822937</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>333626999</telefon> 
 				<mail>Neo@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -59,7 +60,7 @@
 			<nazwa>Trinity</nazwa> 
 			<iban>23967400069824943124050172</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>333266999</telefon> 
 				<mail>Trinity@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -72,7 +73,7 @@
 			<nazwa>Morpheus</nazwa> 
 			<iban>69834300087964181470301248</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>333666299</telefon> 
 				<mail>Morpheus@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -85,7 +86,7 @@
 			<nazwa>Cypher</nazwa> 
 			<iban>59109025616363370380182185</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>333666992</telefon> 
 				<mail>Cypher@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -98,7 +99,7 @@
 			<nazwa>Smith</nazwa> 
 			<iban>62124016750345148548668541</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>333666929</telefon> 
 				<mail>Smith@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -111,7 +112,7 @@
 			<nazwa>Oracle</nazwa> 
 			<iban>04879800026179874695559660</iban> 
 			<kontakt>
-				<telefon>333666999</telefon> 
+				<telefon>333662299</telefon> 
 				<mail>Oracle@gmail.com</mail> 
 			</kontakt> 
 			<zglaszajacy>
@@ -139,13 +140,13 @@
 		<wyswietlenie nipFirmy="x5270473604"> 
 			<dataStart>2020-04-08</dataStart> 
 			<dataStop>2020-05-10</dataStop> 
-			<koszt>20</koszt> 
+			<koszt>220</koszt> 
 		</wyswietlenie> 
 		
 		<wyswietlenie nipFirmy="x7582272153"> 
 			<dataStart>2020-04-08</dataStart> 
 			<dataStop>2020-06-10</dataStop> 
-			<koszt>50</koszt> 
+			<koszt>555</koszt> 
 		</wyswietlenie> 
 		
 		<wyswietlenie nipFirmy="x1092757124"> 
@@ -163,7 +164,7 @@
 		<wyswietlenie nipFirmy="x1199520531"> 
 			<dataStart>2020-03-18</dataStart> 
 			<dataStop>2020-04-10</dataStop> 
-			<koszt>1500</koszt> 
+			<koszt>155</koszt> 
 		</wyswietlenie> 
 		
 		<wyswietlenie nipFirmy="x1092757124"> 
@@ -181,7 +182,7 @@
 		<wyswietlenie nipFirmy="x5348331034"> 
 			<dataStart>2020-03-22</dataStart> 
 			<dataStop>2020-04-22</dataStop> 
-			<koszt>7500</koszt> 
+			<koszt>750</koszt> 
 		</wyswietlenie> 
 		
 		<wyswietlenie nipFirmy="x5348331034"> 
