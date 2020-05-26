@@ -1,0 +1,53 @@
+listaFirm {
+	margin:10px;
+	position: absolute;
+    	top:  50%;
+    	left: 50%;
+	width: 560px;
+    	transform: translate(-50%,-50%);
+	border:dotted 3px;
+	padding: 20px;
+	background-color:#6CD0AE;
+
+}
+
+firma{
+	display: block;
+	border:solid;
+	border-width: medium thick medium thick;
+	border-color: #B4C7E0;
+	padding: 4px;
+	}
+
+firma:hover {
+  background-color: yellow;
+}
+
+
+nazwa {
+	color: green;
+	font-weight: bold;
+	display: inline-block;
+}
+iban {
+	display: inline-block;
+}
+telefon::before{
+	content:"telefon: ";
+}
+mail{
+	display: block;
+	font-size: big;
+	color: green;
+	font-family: "Arial";
+}
+wyswietlenie{
+	display: block;
+	border:solid;
+	border-width: medium thick medium thick;
+	border-color: #B4C7E0;
+	padding: 4px;
+	}
+	wyswietlenie:hover {
+  background-color: green;
+}

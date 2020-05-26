@@ -1,0 +1,21 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT katalog_firm (firmy,wyswietlenia)>
+<!ELEMENT firmy (firma)+>
+<!ELEMENT wyswietlenia (wyswietlenie)+>
+<!ELEMENT firma (nazwa,iban,kontakt,zglaszajacy)>
+<!ATTLIST firma nip ID #REQUIRED>
+<!ELEMENT wyswietlenie (dataStart,dataStop,koszt)>
+<!ATTLIST wyswietlenie nipFirmy IDREF #REQUIRED>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT iban (#PCDATA)>
+<!ELEMENT kontakt (telefon,mail)>
+<!ELEMENT zglaszajacy (pesel,dowod_osobisty)>
+<!ELEMENT dataStart (#PCDATA)>
+<!ELEMENT dataStop (#PCDATA)>
+<!ELEMENT koszt (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT pesel (#PCDATA)>
+<!ELEMENT dowod_osobisty (#PCDATA)>
+
